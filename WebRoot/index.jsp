@@ -16,6 +16,6 @@
     imwoody 的 官方网站. <br>
     please <a href="${path}/wap/login/login_index">login</a>
     
-    微信公众号：<img alt="weixin" src="${path}/images/myqrcode.jpg">
+    微信公众号：<img alt="weixin" src="http://7xixcy.com1.z0.glb.clouddn.com/myqrcode.jpg">
   </body>
 </html>
