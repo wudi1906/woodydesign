@@ -32,7 +32,7 @@ public class WapRequestInterceptor extends HandlerInterceptorAdapter {
 		}
 		
 		/**
-		 * 这里验证token
+		 * 这里验证tokenfdsafdsa
 		 */
 		String tokenPage = (String)request.getParameter("token");
 		
