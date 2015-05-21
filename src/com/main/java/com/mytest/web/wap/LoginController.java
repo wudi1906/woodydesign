@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.mytest.entity.TransactionInfo;
@@ -32,7 +33,10 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="/do_login", method={RequestMethod.POST})
-	public Object doLogin(String username, String password,String token, HttpSession session) {
+	public Object doLogin(@RequestParam(value = "username", required = true) String username, 
+			@RequestParam(value = "password", required = true) String password,
+			@RequestParam(value = "token", required = true) String token, 
+			HttpSession session) {
 		ModelAndView view = new ModelAndView();
 		
 		
