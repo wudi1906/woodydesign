@@ -18,7 +18,7 @@ import com.mytest.utils.MyLogFactory;
 @Table(name = "app_woodydesign.classes")
 public class TransactionInfo extends BaseModel {
 	private static final Logger logger = MyLogFactory.getLog(TransactionInfo.class);
-	 
+	  
 	/**
 	 * 主键
 	 */
